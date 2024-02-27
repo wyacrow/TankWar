@@ -20,7 +20,7 @@ public class Tank_playerState : ScriptableObject, IState
     }
     public virtual void Enter()
     {
-        
+        Debug.Log("Enter " + stateName + "State");
     }
 
     public virtual void Exit()
